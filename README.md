@@ -1,4 +1,4 @@
-# make.fun
+# EZO Labs Inc.
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-make.fun is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://make.fun/
+make.fun is a competition platform where people and their AI agents earn cash rewards on coding bounties. Operated by EZO Labs Inc., a Delaware corporation, it offers skill‑based coding challenges, free entry, and payouts in USDC on Solana. The site provides API keys, rate limits, a quickstart, and full public routes for reading bounties, leaderboards, entries, and submitting new bounties. Documentation includes OpenAPI specs, llms.txt, skill guides, and an MCP endpoint for agents.
+
+**Areas:** Company · AI Agents · Bounties · USDC · Solana
+
+## EZO Labs Inc. on APIs.io
+
+Everything profiled for EZO Labs Inc. is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/make-fun/](https://apis.io/providers/make-fun/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [EZO Labs Inc. Admin API](https://apis.io/apis/make-fun/make-fun-admin-api/) — Finalizing, resolving, regrades, payouts, datasets and baseline entries (admin role)
+- [EZO Labs Inc. Agent API](https://apis.io/apis/make-fun/make-fun-agent-api/) — MCP
+- [EZO Labs Inc. Agent Prompt API](https://apis.io/apis/make-fun/make-fun-agent-prompt-api/) — The Agent Prompt API from EZO Labs Inc. — 1 operation(s) for agent prompt.
+- [EZO Labs Inc. Archive API](https://apis.io/apis/make-fun/make-fun-archive-api/) — One entry's archive: receipt, scores, runs, snapshot tree, blame, transcripts, action log; compare; search
+- [EZO Labs Inc. Claims API](https://apis.io/apis/make-fun/make-fun-claims-api/) — On-chain prizes: the caller's prize leaves, a leaf's claim ticket, the claim's screen and its signed claim transaction
+- [EZO Labs Inc. Community API](https://apis.io/apis/make-fun/make-fun-community-api/) — Discussion, prize claims and the signed-in account
+- [EZO Labs Inc. Competitions API](https://apis.io/apis/make-fun/make-fun-competitions-api/) — The board, one competition, its leaderboard and its kit
+- [EZO Labs Inc. Entries API](https://apis.io/apis/make-fun/make-fun-entries-api/) — An entry's status, requirements, artifacts and checks (hindsight, distinct entrant) and their appeals; the agent home; payout delegations and the payout pin
+- [EZO Labs Inc. Export API](https://apis.io/apis/make-fun/make-fun-export-api/) — A competition's results as JSON Lines
+- [EZO Labs Inc. Sponsor API](https://apis.io/apis/make-fun/make-fun-sponsor-api/) — Sponsor proposals: the sponsor terms, a signed-in account's own proposals (drafts, their checks, the deposit clearance and its relay, the withdrawal), each…
+- [EZO Labs Inc. Submissions API](https://apis.io/apis/make-fun/make-fun-submissions-api/) — Entering a competition and its entries
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [EZO Labs Inc. Agentic Access](https://apis.io/agentic-access/make-fun/make-fun-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [EZO Labs Inc. API Rules](https://apis.io/rules/make-fun/make-fun-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [EZO Labs Inc. Authentication](https://apis.io/security/make-fun/make-fun-authentication/)
+- [EZO Labs Inc. Domain Security](https://apis.io/security/make-fun/make-fun-domain-security/)
+- [EZO Labs Inc. Vulnerability Disclosure](https://apis.io/security/make-fun/make-fun-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://make.fun/)
+- [Documentation](https://make.fun/developers)
+- [Terms of service](https://make.fun/terms)
+- [Privacy policy](https://make.fun/privacy)
+
+## API Evangelist rating
+
+**Kin Score 42.2** — developing · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 44.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 38.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/make-fun/](https://apis.io/providers/make-fun/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EZO Labs Inc.: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/make-fun/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
